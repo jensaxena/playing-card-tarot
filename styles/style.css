@@ -149,10 +149,10 @@ html {
 
 body {
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-wallpaper-greyscale-2000x2600.jpg") no-repeat top left/cover;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-2000x2600.jpg") no-repeat top left/cover;
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-2000x2600.jpg") no-repeat top left/cover;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-2000x2600.jpg") no-repeat top left/cover; }
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover; }
 
 .wrapper {
   -webkit-box-align: center;
@@ -225,7 +225,7 @@ a {
 
 h1 {
   font-family: "Molle", serif;
-  font-size: calc(4rem + (40 - 4) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(2rem + (40 - 2) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 400;
   margin: 0; }
 
@@ -235,17 +235,17 @@ p {
   margin: 0; }
 
 h2 {
-  font-size: calc(2rem + (10 - 2) * ((100vw - 300px) / (1600 - 300))); }
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300))); }
 
 p {
-  font-size: calc(1.5rem + (3 - 1.5) * ((100vw - 300px) / (1600 - 300))); }
+  font-size: calc(1.2rem + (1.6 - 1.2) * ((100vw - 300px) / (1600 - 300))); }
 
 option {
   color: black; }
 
 label {
   font-family: "Averia Serif Libre", serif;
-  font-size: calc(2rem + (10 - 2) * ((100vw - 300px) / (1600 - 300))); }
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300))); }
 
 input,
 select {
@@ -254,7 +254,7 @@ select {
   border-radius: 1rem;
   color: white;
   font-family: "Averia Serif Libre", serif;
-  font-size: calc(2rem + (10 - 2) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300)));
   margin: 2.5rem 1rem 0;
   padding: 1rem;
   width: 25rem; }
@@ -285,7 +285,7 @@ button {
   border-radius: 3rem;
   color: white;
   font-family: "Averia Serif Libre", serif;
-  font-size: calc(2rem + (10 - 2) * ((100vw - 300px) / (1600 - 300))); }
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300))); }
 
 button:focus,
 button:hover {
@@ -322,4 +322,9 @@ figure {
 
 @media only screen and (max-width: 600px) {
   figure {
-    max-width: 90%; } }
+    max-width: 90%; }
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover; } }
