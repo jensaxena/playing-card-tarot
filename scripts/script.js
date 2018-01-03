@@ -9,109 +9,109 @@ tarot.question = '';
 
 tarot.cardMeaning = {
 
-    'AC': 'Ace of Clubs: Wealth, prosperity, unexpected money/gain. However, in a difficult spread, this money may disappear almost as quickly as it appears.',
+  'AC': 'Ace of Clubs: Wealth, fame, prosperity. These blessings may be at risk of disappearing as fast as they come in.',
 
-    '2C': '2 of Clubs: Obstacles to success; malicious gossip.',
+  '2C': '2 of Clubs: Bad luck, obstacles, malicious gossip. Do not rely on friends and family, they will let you down.',
 
-    '3C': '3 of Clubs: Love and happiness; successful marriage; a favorable long-term proposition. A second chance, particularly in an economical sense.',
+  '3C': '3 of Clubs: Second chances, in money or in love. A successful marriage or a favorable long-term proposition.',
 
-    '4C': '4 of Clubs: Beware of dishonesty or deceit; avoid blind acceptance of others at this time.',
+  '4C': '4 of Clubs: Misfortune, failure, dishonesty or deceit. Do not trust blindly, others may sabotage or betray you.',
 
-    '5C': '5 of Clubs: New friendships, alliances are made.',
+  '5C': '5 of Clubs: New marriages, friendships or partnerships. The creation of long-standing alliances.',
 
-    '6C': '6 of Clubs: Financial aid or success.',
+  '6C': '6 of Clubs: Partnership, financial aid. Shared successes based on mutual goals and friendship.',
 
-    '7C': '7 of Clubs: Business success, although there may be problems in love. A change in business that may have been expected or earned, such as a promotion.',
+  '7C': '7 of Clubs: Success and good luck in business, but with a risk of interference from someone of the opposite sex.',
 
-    '8C': '8 of Clubs: Work/business problems that may have to do with jealousy. This is generally thought to be quite unfavorable.',
+  '8C': '8 of Clubs: Desperation, an urgent need for money. Business problems may have to do with jealousy.',
 
-    '9C': '9 of Clubs: Achievement; sometimes a wealthy marriage or a sudden windfall.',
+  '9C': '9 of Clubs: Trouble, arguments with good friends. Loss of a relationship, a dispute that will remain unresolved.',
 
-    '0C': '10 of Clubs: Business success. Good luck with money. A trip taken now may result in a new friend or love interest.',
+  '0C': '10 of Clubs: Good fortune in money. Taking a long and fun-filled journey may result in a new friend or lover.',
 
-    'JC': 'Jack of Clubs: A dark-haired or fiery youth. Popular youth who is good-hearted and playful. Can also indicate an admirer.',
+  'JC': 'Jack of Clubs: A good friend or admirer. Someone who uses a lot of flattery to cheer you or make you feel better.',
 
-    'QC': 'Queen of Clubs: Dark-haired, confident woman; or a woman with Fire predominating in her chart. She may give you good advice.',
+  'QC': 'Queen of Clubs: A close, long-time friend or partner who knows your deepest secrets. Someone who gives good advice.',
 
-    'KC': 'King of Clubs: Dark-haired, kind-hearted man; or a man with Fire predominating in his chart. A generous, spirited man.',
+  'KC': 'King of Clubs:  A lifelong companion. A generous and capable person, to be trusted in times of need or sorrow.',
 
-    'AD': 'Ace of Diamonds: Change; a message, often about money, and usually good news.',
+  'AD': 'Ace of Diamonds: A very important message,  letter or package. Usually contans good news, often about money.',
 
-    '2D': '2 of Diamonds: A business partnership; a change in relationship; gossip.',
+  '2D': '2 of Diamonds: A serious love affair or business partnership. A change in relationship status.',
 
-    '3D': '3 of Diamonds: A legal letter. Be tactful with others in order to avoid disputes.',
+  '3D': '3 of Diamonds: Disputes, quarrels, lawsuits or legal actions. Separation or divorce. Be tactful.',
 
-    '4D': '4 of Diamonds: Financial upswing; an older person may give good advice.',
+  '4D': '4 of Diamonds: Forgotten or neglected relationships. Brewing situations will now come to a head.',
 
-    '5D': '5 of Diamonds: Happiness and success. A change for the better. A birth, or good news for a child. A good time to start new projects.',
+  '5D': '5 of Diamonds: Prosperity, a change for the better. A birth, or good news for a child. A good time to start new projects.',
 
-    '6D': '6 of Diamonds: Relationship problems, arguments. Separation.',
+  '6D': '6 of Diamonds: Relationship problems, arguments, separation. An early marriage, unhappy and destined to fail.',
 
-    '7D': '7 of Diamonds: An argument concerning finances, or on the job. Generally expected to be resolved happily.',
+  '7D': '7 of Diamonds: An argument about finances or on the job. A person who is unreliable, a drinker or gambler.',
 
-    '8D': '8 of Diamonds: New job; change in job situation. The young or the old may find love on a trip.',
+  '8D': '8 of Diamonds: Life is too hectic; a need to slow down and get away that cannot be met at present time.',
 
-    '9D': '9 of Diamonds: A new business deal; travel; restlessness; a change of residence.',
+  '9D': '9 of Diamonds: A new business deal, advancement. Adventure, restlessness, change of residence.',
 
-    '0D': '10 of Diamonds: A change in financial status, often for the better.',
+  '0D': '10 of Diamonds: Greed and selfishness. Money as the driving force of a partnership. A change in financial status.',
 
-    'JD': 'Jack of Diamonds: A youth, possibly in uniform. Or, a jealous person who may be unreliable. A person who brings news, generally negative, but relatively minor.',
+  'JD': 'Jack of Diamonds: The bringer of bad news. A selfish, jealous and unreliable person. A particular danger to women.',
 
-    'QD': 'Queen of Diamonds: Fair-haired woman; or a woman with Earth predominating in her chart. A gossip.',
+  'QD': 'Queen of Diamonds: A flirtatious or gossiping person who is likely to interfere with plans. Not to be trusted.',
 
-    'KD': 'King of Diamonds: Fair-haired or graying man, or a man with Earth predominating in his chart. A man of authority, status, or influence.',
+  'KD': 'King of Diamonds:  A person of authority, status, or influence. A bitter rival or dangerous competitor.',
 
-    'AH': 'Ace of Hearts: Love and happiness. The home, a love letter. This card is a particularly favorable card that indicates troubles and problems lifting.',
+  'AH': 'Ace of Hearts: Love,  happiness, home. Troubles and problems lifting. A visit, travel or change of address',
 
-    '2H': '2 of Hearts: A warm partnership or engagement. This is a very favorable card that indicates strength and support coming from a partner.',
+  '2H': '2 of Hearts: Success, strength and support beyond expectations. A warm partnership or engagement.',
 
-    '3H': '3 of Hearts: Love and happiness when the entire spread is generally favorable. In a difficult spread, this can indicate emotional problems and an inability to decide who to love.',
+  '3H': '3 of Hearts: Emotional problems. An unwise decision, made in haste and without proper information.',
 
-    '4H': '4 of Hearts: Travel, change of home or business.',
+  '4H': '4 of Hearts: Travel, change of home or career. An overly picky nature, destined to remain alone or unsatisfied.',
 
-    '5H': '5 of Hearts: Jealousy; some ill-will from people around you.',
+  '5H': '5 of Hearts: Jealousy, ill-will, indecisiveness. A tendency to make and break plans with others.',
 
-    '6H': '6 of Hearts: A sudden wave of good luck. Someone takes care of you, takes warm interest in you.',
+  '6H': '6 of Hearts: A warning. A close friend or partner may be trying to use or take advantage of you. Be wary.',
 
-    '7H': '7 of Hearts: Someone whose interest in you is unreliable; someone with fickle affections for you. This card can indicate lovesickness.',
+  '7H': '7 of Hearts: Disappointment, lovesickness, broken promises. Someone whose interest is fickle or unreliable.',
 
-    '8H': '8 of Hearts: Unexpected gift or visit; an invitation to a party.',
+  '8H': '8 of Hearts: An event, celebration, wedding or party. An unexpected gift or a ceremony being planned.',
 
-    '9H': '9 of Hearts: The card of wishes. A wish/dream fulfilled. Look to the card just preceding this one to determine what the querent desires.',
+  '9H': '9 of Hearts: Harmony, prosperity, a wish fulfilled. The preceding card indicates your desire.',
 
-    '0H': '10 of Hearts: Good luck, success. This is an important card that suggests good fortune after difficulty.',
+  '0H': '10 of Hearts: Good luck, success, good fortune after struggle or difficulty. Triumph over adversity.',
 
-    'JH': 'Jack of Hearts: A warm-hearted friend. A fair-haired youth; or a young person with Water signs predominating in his or her chart. Often this points to a younger admirer.',
+  'JH': 'Jack of Hearts: Friendship, relationships, gathering in celebration. An old friend or close confidant.',
 
-    'QH': 'Queen of Hearts: A fair-haired woman with a good nature; or a woman with Water signs predominating in her chart. Kind advice. Affectionate, caring woman. Sometimes, this card can indicate the mother or a mother figure.',
+  'QH': 'Queen of Hearts: Trust, honesty, friendship. A caring and knowledgable person, who will always play fair.',
 
-    'KH': 'King of Hearts: A fair-haired man with a good nature; or a man with Water signs predominating in his chart. Fair, helpful advice. Affectionate, caring man. This man helps you out without much talk. His actions reveal his kindness and concern.',
+  'KH': 'King of Hearts: Money, wealth, success in love. An influential person, with the power to do something good.',
 
-    'AS': 'Ace of Spades: Misfortune; sometimes associated with death or, more often, a difficult ending.',
+  'AS': 'Ace of Spades: Misfortune, death, a difficult ending. Illness, loss of someone close. Bad news.',
 
-    '2S': '2 of Spades: Breaks in relationships; deceit. A break in an important process in the querent’s life. If the question concerns a particular romantic interest, this is considered a warning card – infidelity or separation is quite likely.',
+  '2S': '2 of Spades: A sudden forced change. Relocation, a break in an important relationship, deceit, death.',
 
-    '3S': '3 of Spades: Breaks in relationships. Sometimes indicates that a third person is breaking into a relationship somehow.',
+  '3S': '3 of Spades: Unhappiness, misfortune in love. Loss of pride or hope, an unreparable break. A need to move on in life.',
 
-    '4S': '4 of Spades: Small worries, problems. Financial difficulties, personal lows.',
+  '4S': '4 of Spades: Small worries, minor misfortunes, personal lows. A short illness or temporary financial setback.',
 
-    '5S': '5 of Spades: Opposition and obstacles that are temporary; a blessing in disguise. Sometimes indicates a negative or depressed person.',
+  '5S': '5 of Spades: Temporary obstacles or opposition; a blessing in disguise. A negative or depressed person.',
 
-    '6S': '6 of Spades: Small changes and improvements.',
+  '6S': '6 of Spades: Discouragement; much planning with little result, hard work without profit. Small changes.',
 
-    '7S': '7 of Spades: Advice that is best not taken; loss. There is some obstacle to success, and this indicates that obstacles may be coming from within the querent.',
+  '7S': '7 of Spades: Sorrow, loss, advice that is best not taken. The obstacle to success may be coming from within.',
 
-    '8S': '8 of Spades: Temptation, misfortune, danger, upsets.',
+  '8S': '8 of Spades: Traitors, false friends, someone who will betray you. Danger. Be wary of temptation. Examine your relationships.',
 
-    '9S': '9 of Spades: Illness, accident, bad luck. The querent is at his/her personal low.',
+  '9S': '9 of Spades: Illness, accident, misery and death. Financial loss. Depression and defeat. A new personal low.',
 
-    '0S': '10 of Spades: Worry; bad news.',
+  '0S': '10 of Spades: Tremendously bad luck. Worry, anxiety, and the realization of your worst fears. Take caution.',
 
-    'JS': 'Jack of Spades: A youth who is hostile or jealous.',
+  'JS': 'Jack of Spades:  Laziness. A hostile or jealous person who impedes progress, or takes but does not give back.',
 
-    'QS': 'Queen of Spades: Widowed or divorced woman; or a woman with Air predominating in her chart.',
+  'QS': 'Queen of Spades:  Betrayal, interference, manipulation, sabotage. A cruel person who uses others for gain.',
 
-    'KS': 'King of Spades: Dark-haired man; or a man with Air predominating in his chart. An ambitious man, perhaps self-serving.',
+  'KS': 'King of Spades: An ambitious, self-serving person. One who will divide and conquer, then destroy.',
 
 };
 
