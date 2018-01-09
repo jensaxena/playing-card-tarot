@@ -1,0 +1,343 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* STYLES */
+html {
+  font-size: 62.5%;
+  line-height: 1.5; }
+
+body {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-1500x750.jpg") no-repeat top left/cover; }
+
+.wrapper {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+  min-height: calc(100vh - 2rem);
+  margin: 1rem auto;
+  max-width: 95vw;
+  min-width: 300px; }
+
+main {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; }
+
+aside {
+  display: none;
+  margin: 1.5rem auto; }
+
+footer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: calc(1rem + (2 - 1) * ((100vw - 300px) / (1600 - 300))); }
+
+footer a:focus,
+footer a:hover,
+footer .fa:focus,
+footer .fa:hover {
+  color: #ff4dff; }
+
+footer .fa {
+  font-size: calc(2rem + (10 - 2) * ((100vw - 300px) / (1600 - 300)));
+  padding: 0 1.5rem 1rem; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+h1 {
+  font-family: "Molle", serif;
+  font-size: calc(2rem + (40 - 2) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 400;
+  margin: 0; }
+
+h2,
+p {
+  font-family: "Averia Serif Libre", serif;
+  margin: 0; }
+
+h2 {
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300))); }
+
+p {
+  font-size: calc(1.2rem + (1.6 - 1.2) * ((100vw - 300px) / (1600 - 300))); }
+
+option {
+  color: black; }
+
+label {
+  font-family: "Averia Serif Libre", serif;
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300))); }
+
+input,
+select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px dotted #ff4d4d;
+  border-radius: 1rem;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300)));
+  margin: 2.5rem 1rem 0;
+  padding: 1rem;
+  width: 25rem; }
+
+input:focus,
+input:hover {
+  background: rgba(0, 0, 0, 0.5); }
+
+.insist {
+  -webkit-animation: redRum 1s ease-out infinite;
+  animation: redRum 1s ease-out infinite; }
+
+@-webkit-keyframes redRum {
+  from {
+    background: #ff1a1a; }
+  to {
+    background: #330000; } }
+
+@keyframes redRum {
+  from {
+    background: #ff1a1a; }
+  to {
+    background: #330000; } }
+
+aside a,
+button {
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3rem;
+  color: white;
+  font-family: "Averia Serif Libre", serif;
+  font-size: calc(1.4rem + (1.8 - 1.4) * ((100vw - 300px) / (1600 - 300))); }
+
+aside a:focus,
+aside a:hover,
+button:focus,
+button:hover {
+  background: rgba(255, 255, 255, 0.1); }
+
+aside a,
+button,
+figure {
+  padding: 1rem;
+  margin: 3rem 1rem; }
+
+figure {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 30%; }
+  figure img {
+    margin: 1.5rem;
+    max-width: 50%; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../images/bg-wallpaper-greyscale-600x900.jpg") no-repeat top left/cover; }
+  aside {
+    display: block; }
+  figure {
+    max-width: 60%; }
+    figure img {
+      margin: 1.5rem;
+      max-width: 90%; } }

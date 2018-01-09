@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- iconography -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="images/android-chrome-192x192.png" sizes="192x192">
+  <meta name="msapplication-square70x70logo" content="images/smalltile.png"/>
+  <meta name="msapplication-square150x150logo" content="images/mediumtile.png"/>
+  <meta name="msapplication-wide310x150logo" content="images/widetile.png"/>
+  <meta name="msapplication-square310x310logo" content="images/largetile.png"/>
+  <title>Tarot Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Molle:400i|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <!--
+    fail condition card images courtesy of https://code.google.com/archive/p/vector-playing-cards
+  -->
+</head>
+<body>
+  <div class="wrapper">
+    <header id="home">
+      <h1>Playing-Card Divination</h1>
+      <form action="">
+
+        <div>
+          <label for="input" id="querent">
+            What shall I call you?
+          </label>
+          <!-- #querent -->
+
+          <input type="text" id="name" name="name" placeholder="">
+          <!-- #name -->
+        </div>
+
+        <div>
+          <label for="select" id="question">
+            What do you inquire?
+          </label>
+          <!-- #question -->
+
+          <select id="category" name="category">
+            <option value="bad luck">
+              Bad Luck
+            </option>
+            <option value="careers">
+              Careers
+            </option>
+            <option value="fate">
+              Fate
+            </option>
+            <option value="insight">
+              Insight
+            </option>
+            <option value="love">
+              Love
+            </option>
+            <option value="money">
+              Money
+            </option>
+            <option value="relationships">
+              Relationships
+            </option>
+          </select>
+          <!-- #category -->
+        </div>
+
+        <div>
+          <button id="submit" type="submit" value="Submit">
+            Ask
+          </button>
+          <!-- #submit -->
+
+          <button id="reset" type="reset" value="Reset">
+            Reset
+          </button>
+          <!-- #reset -->
+        </div>
+
+      </form>
+    </header>
+
+    <main id="spread">
+      <!-- cards go here -->
+    </main>
+    <!-- #spread -->
+
+    <aside id="back">
+      <a href="#home" class=>Back to top</a>
+    </aside>
+    <!-- #back -->
+
+    <footer>
+      <a href="https://codepen.io/jensaxena/">
+        <i class="fa fa-codepen fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:jen@jensaxena.com">
+        <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/jensaxena">
+        <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/jensaxena/">
+        <i class="fa fa-instagram fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/jensaxena/">
+        <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://medium.com/@jensaxena/">
+        <i class="fa fa-medium fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/jensaxena">
+        <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+      </a>
+      <p>
+        <a href="http://www.jensaxena.com">
+          &copy; 2017 Jen Saxena
+        </a>
+        For entertainment purposes only: any resemblance to actual events is entirely coincidental, and extremely strange.
+      </p>
+    </footer>
+  </div>
+  <!-- .wrapper -->
+  <!-- link scripts -->
+  <script src='https://code.jquery.com/jquery-3.2.1.min.js'
+  integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=' crossorigin='anonymous'>
+  </script>
+
+  <script src="https://use.fontawesome.com/fafaa81dee.js">
+  </script>
+
+  <script src="scripts/script.js">
+  </script>
+
+</body>
+</html>

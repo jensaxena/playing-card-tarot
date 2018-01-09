@@ -471,13 +471,14 @@ tarot.failDeck = [
   },
 ];
 
-// listen for submit event
-$('form').on('submit', function(e) {
+tarot.deckID = [];
+tarot.drawCards = {};
+tarot.errorCards = [];
 
-  // prevent page reload
+// get user data
+$('form').on('submit', function(e) {
   e.preventDefault();
 
-  // validate, save & display name input
   tarot.querent = $('input').val();
   if (tarot.querent === ''){
 
@@ -487,23 +488,15 @@ $('form').on('submit', function(e) {
 
     // display username
     $('#querent').text(`Hello, ${tarot.querent}! `);
-
-    // hide input
     $('input').hide();
 
-    // validate category selection
-    tarot.question = $('#category option:selected').val();
 
     // display category
-    $('#question').text(`The cards will show you the secrets of ${tarot.question}.`);
+    tarot.question = $('#category option:selected').val();
 
-    // hide select
-    $('select').hide();
-
-    // hide submit
-    $('#submit').hide();
+    $('#question').text(`The cards will show you the secrets of:`);
+    $('#submit').text('Ask again');
   };
-  // end if/else
 
   // reset action
   $('#reset').on('click', function(){
@@ -511,18 +504,10 @@ $('form').on('submit', function(e) {
   });
 
   tarot.getDeck();
-
 });
-// end event listener
 
-// get a deck of shuffled cards
+// API call
 tarot.getDeck = function(){
-
-  // empty array for deck ID
-  tarot.deckID = [];
-
-  // empty object for card data
-  tarot.drawCards = {};
 
   // get shuffled deck and draw (num) cards
   return $.ajax({
@@ -534,20 +519,17 @@ tarot.getDeck = function(){
   // fallback if the #$@☠&%! server is still down
   .fail(tarot.error = function(){
 
-    // empty array for cards
-    tarot.errorCards = [];
-
     // pull random cards from local data
     i = 0;
     while (i < tarot.num){
       tarot.errorCards.push(tarot.failDeck[Math.floor(Math.random()*tarot.failDeck.length)]);
       i++;
-    }
+    };
 
     // assign cards to existing object
     Object.assign(tarot.drawCards, tarot.errorCards);
 
-    // call spread
+    // spread 'em
     tarot.spread();
   })
 
@@ -556,12 +538,11 @@ tarot.getDeck = function(){
     tarot.deckID.push(res.deck_id);
     Object.assign(tarot.drawCards, res.cards);
 
-    // call spread
+    // spread 'em
     tarot.spread();
-  })
-
+  });
 };
-// end tarot.getDeck
+
 
 // assign cards to layout
 tarot.spread = function(){
@@ -569,14 +550,14 @@ tarot.spread = function(){
   // make sure table is clear
   $('#spread').empty();
 
-  // match returned cards to local definitions
-  // lay cards on page
+  // match returned cards to local data
   for (i = 0; i < tarot.num; i++){
 
     tarot.cardCode = tarot.drawCards[i].code;
     tarot.cardSuit = tarot.drawCards[i].suit;
     tarot.cardValue = tarot.drawCards[i].value;
 
+    // local or remote path to card image
     if (tarot.drawCards[i].image !== undefined){
       tarot.cardImage = `http://deckofcardsapi.com/static/img/${tarot.cardCode}.png`
     } else {
@@ -584,9 +565,9 @@ tarot.spread = function(){
     };
 
     tarot.cardDesc = tarot.cardMeaning[`${tarot.cardCode}`];
-
     tarot.positionDesc = tarot.positionMeaning[`${tarot.num}`][`${tarot.question}`][i];
 
+    // lay it all out
     $('#spread').append(
       `<figure class="card" id="card${i}">
         <img src="${tarot.cardImage}" alt="The ${tarot.cardValue} of ${tarot.cardSuit}"/>
@@ -594,15 +575,10 @@ tarot.spread = function(){
           <p>${tarot.cardDesc}</p>
         </figcaption>
       </figure>`
-    )
-    // end #spread.append
-
-    $(`#card${i}`).prepend(`<h2>${tarot.positionDesc}</h2>`)
-
+    );
+    $(`#card${i}`).prepend(`<h2>${tarot.positionDesc}</h2>`);
   };
-  // end for loop
-}
-// end tarot.spread
+};
 
 // initiate sequence
 tarot.init = function(){};
