@@ -487,7 +487,7 @@ $('form').on('submit', function(e) {
   } else {
 
     // display username
-    $('#querent').text(`Hello, ${tarot.querent}! `);
+    $('#querent').text(`Hello, ${tarot.querent}!`).css('font-size', '250%');
     $('input').hide();
 
 
